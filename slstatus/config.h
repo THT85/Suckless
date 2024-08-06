@@ -65,10 +65,10 @@ static const char unknown_str[] = "n/a";
  */
 static const struct arg args[] = {
 	/* function format          argument */
-        {run_command, "| 󱄠 : %s |",         "/home/s0r3n/Suckless/slstatus/audio.sh"},	
-	{wifi_perc , " 󰖩 : %s |",           "wlp4s0"},
-	{battery_perc, " 󰂀 : %s |",             "BAT0"},
-	{cpu_freq, "   : %s |",               NULL},
-	{ram_used, "   : %s |",              NULL },
-	{ datetime, "%s",           "   : %T" },
+        {run_command, "[ 󱄠 : %s ]",         "~/Suckless/slstatus/audio.sh"},	
+	{wifi_perc , "[ 󰖩 : %s ]",           "wlp4s0"},
+	{battery_perc, "[ 󰂀 : %s ]",             "BAT0"},
+	{cpu_freq, "[   : %s ]",               NULL},
+	{ram_used, "[   : %s ]",              NULL },
+	{ datetime, "%s",           "[   : %T ]" },
 };
